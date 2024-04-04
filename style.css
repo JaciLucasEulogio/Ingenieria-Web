@@ -1,0 +1,265 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.banner h2,
+.banner p {
+    color: black;
+}
+
+/* Estilos para el header */
+.top-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.contact-info {
+    float: left;
+}
+
+.social-links {
+    float: right;
+}
+
+.social-links a {
+    margin-left: 10px;
+}
+
+.main-header {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input[type="text"] {
+    padding: 10px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Estilos para el banner */
+.banner {
+    background-image: url("banner.jpg");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h2 {
+    font-size: 36px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.banner .btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos para la sección de productos destacados */
+.destacados {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.destacados h2 {
+    text-align: center;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.producto {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    margin-top: 0;
+}
+
+.producto button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para la sección de ofertas especiales */
+.ofertas {
+    margin-top: 40px;
+}
+
+.ofertas h2 {
+    text-align: center;
+}
+
+.oferta {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.oferta img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.oferta button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos para la sección de testimonios */
+.testimonios {
+    margin-top: 40px;
+}
+
+.testimonios h2 {
+    text-align: center;
+}
+
+.testimonio {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.testimonio img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonio p {
+    font-style: italic;
+}
+
+.testimonio cite {
+    font-weight: bold;
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center; /* Alineación centrada del texto */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto; /* Margen automático a la izquierda y derecha para centrar */
+}
+
+.footer-info h3 {
+    margin-top: 0;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer-links ul li a{
+    color:#f4f4f4;
+}
+
+.footer-links ul li:last-child {
+    margin-right: 0;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 200px;
+}
+
+.newsletter button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+}
+
+.bottom-bar {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
